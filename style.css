@@ -1,0 +1,39 @@
+* {
+    background-color: azure;
+}
+
+.hero {
+    display: grid;
+    top: 30%;
+    left: 41%;
+    position: absolute;
+}
+
+.hero div input {
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.hero .result {
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.hero .result textarea {
+    width: 250px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.hero div:not(.result) input {
+    max-width: 60px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.hero div:not(.result) input:hover {
+    cursor: pointer;
+    background-color: rgb(202, 212, 219);
+}
