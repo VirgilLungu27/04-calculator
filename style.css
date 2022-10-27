@@ -4,8 +4,8 @@
 
 .hero {
     display: grid;
-    top: 30%;
-    left: 41%;
+    top: 20%;
+    left: 38%;
     position: absolute;
 }
 
@@ -22,7 +22,8 @@
 }
 
 .hero .result textarea {
-    width: 250px;
+    width: 350px;
+    height: 200px;
     font-size: 19px;
     font-family: sans-serif;
 }
