@@ -37,3 +37,8 @@
     cursor: pointer;
     background-color: rgb(202, 212, 219);
 }
+
+#equal {
+    background-color: rgb(15, 170, 15);
+    color: whitesmoke;
+}
